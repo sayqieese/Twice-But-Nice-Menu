@@ -1,0 +1,196 @@
+html{
+    width: 100%;
+    height: auto;
+}
+ 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ 
+.header{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #724E52;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Noto Serif TC', serif;
+}
+ 
+ 
+.topnav {
+  background-color: #d4bfba;
+  overflow: hidden;
+  padding-left: 240px;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #724e52;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  padding-left: 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+ 
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #d4bfba;
+  color: #724e52;
+}
+
+
+.aboutus h2{
+  color: #724e52;
+  font-family: 'Noto Serif TC', serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.aboutus p{
+  color: #AD7278;
+  font-family: 'Noto Serif TC', serif;
+  text-align: left;
+  padding-left: 400px;
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+.contact {
+    height:750px;
+    padding-top: 60px;
+    background-image: url(../img/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    
+}
+ 
+.contact h2 {
+  color: #724e52;
+  font-family: 'Noto Serif TC', serif;
+  text-align: center;
+  padding-top: 30px;
+}
+ 
+.contact .form {
+    max-width: 600px;
+    margin:0 auto;
+    padding: 0 30px;
+    color:#AD7278;
+}
+ 
+.form input {
+    height: 40px;
+    width: 100%;
+    background-color: #FDFAF8;
+    border-radius: 5px;
+    border:0px;
+    padding: 12px;
+    resize: vertical;
+    color: #ffffff;
+    margin:7.5px 0;
+}
+ 
+.form textarea {
+    height: 200px;
+    width: 100%;
+    background-color: #FDFAF8;
+    border-radius: 5px;
+    border:0px;
+    padding: 12px;
+    resize: vertical;
+    color: #ffffff;
+    margin:7.5px 0;
+}
+ 
+input[type=submit] {
+  background-color: #AD7278;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+ 
+input[type=submit]:hover {
+  background-color: #AD7278;
+}
+
+.out{
+  margin-top: 90px;
+}
+.out_1 h2{
+  color: #724e52;
+  font-family: 'Noto Serif TC', serif;
+  text-align: center;
+  padding-top: 30px;
+}
+.outside{
+  display: flex;
+  padding-left: 130px;
+  padding-top: 30px;
+}
+
+.outside p{
+  text-align: center;
+  font-family: 'Noto Serif TC', serif;
+  color: #AD7278;
+}
+.card-container2{
+  padding-left: 130px;
+}
+
+.card-container3{
+  padding-left: 130px;
+}
+
+
+.servicepoints h2{
+  color: #724e52;
+  font-family: 'Noto Serif TC', serif;
+  text-align: center;
+  padding-top: 30px;
+}
+ 
+.container img{
+ padding-left: 100px;
+}
+
+.text-block {
+  position: absolute;
+  top:1285px;
+  right: 40px;
+  color:#d4bfba ;
+  background-color: #724e52;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  font-size: 12px;
+}
+ 
+
+
+.footer {
+    margin-top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #d4bfba;
+    text-align: center;
+    color: #724e52;
+    font-family: 'Abril Fatface', cursive;
+ 
+}
+
