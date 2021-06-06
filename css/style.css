@@ -17,7 +17,7 @@ html{
 
 body{
     margin: 0px;
-    font-family: 'Noto Serif TC', serif;
+    font-family: STHeiti;
 }
  
  
@@ -48,14 +48,15 @@ body{
 
 .aboutus h2{
   color: #724e52;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
+  font-size: 30px;
 }
 
 .aboutus p{
   color: #AD7278;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   text-align: left;
   padding-left: 400px;
   padding-top: 30px;
@@ -77,9 +78,10 @@ body{
  
 .contact h2 {
   color: #724e52;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
+  font-size: 30px;
 }
  
 .contact .form {
@@ -97,8 +99,8 @@ body{
     border:0px;
     padding: 12px;
     resize: vertical;
-    color: #ffffff;
     margin:7.5px 0;
+    color: white;
 }
  
 .form textarea {
@@ -115,7 +117,7 @@ body{
  
 input[type=submit] {
   background-color: #AD7278;
-  color: white;
+  color: black;
   cursor: pointer;
   width: 100px!important;
   height: 48px;
@@ -125,14 +127,23 @@ input[type=submit]:hover {
   background-color: #AD7278;
 }
 
+.text-center{
+  border: none;
+}
+
+.text-center input{
+ background-color: #AD7278; 
+}
+
 .out{
   margin-top: 90px;
 }
 .out_1 h2{
   color: #724e52;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
+  font-size: 30px;
 }
 .outside{
   display: flex;
@@ -142,7 +153,7 @@ input[type=submit]:hover {
 
 .outside p{
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   color: #AD7278;
 }
 .card-container2{
@@ -156,9 +167,10 @@ input[type=submit]:hover {
 
 .servicepoints h2{
   color: #724e52;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
+  font-size: 30px;
 }
  
 .container img{
@@ -179,6 +191,9 @@ input[type=submit]:hover {
   font-size: 12px;
 }
  
+ .feedback_details {
+  line-height: 25px;
+ }
 
 
 .footer {

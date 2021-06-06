@@ -85,7 +85,7 @@
     <h2>顧客心得分享</h2>
   </div>
  
-<div class="outside"><!--國外紅什麼img？-->
+<div class="outside">
  <div class="card-container1">
         <div class="card-inner1">
             <div class="card-imgouter1">
@@ -140,7 +140,7 @@
                             <div>
                                 <textarea placeholder="想對我們說些什麼呢"></textarea>
                             </div>
-                            <div class="text-center"><input type="submit" value="SEND"></div>
+                            <button class="text-center"><input class="popuptest" type="button" value="SEND"></button>
                         </div>  
                     </div>
                 </div>
@@ -148,7 +148,35 @@
     </div>
 
 
- 
+<style type="text/css">
+.popuptest{
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
+</style>
+
+
+    <script>
+        var button = document.querySelector('.popuptest');
+        var showtxt = document.querySelector('.show');
+
+        function popup2(e) {
+            window.confirm('謝謝您的填寫！');
+            if (confirm('我們是Twice But Nice，請稍等回覆！') == true) {
+                showtxt.innerHTML = 'Yes';
+            } else {
+                showtxt.innerHTML = '您已取消確認';
+            }
+
+        };
+        button.addEventListener('click', popup2);
+    </script>
+
   <div class="footer">© 2021 Twice But Nice</div>
     <!-- JS連結 -->
     <script src="js/jQuery.js"></script>
