@@ -50,8 +50,8 @@ body{
   color: #724e52;
   font-family: STHeiti;
   text-align: center;
-  padding-top: 30px;
-  font-size: 30px;
+  padding-top: 60px;
+  font-size: 40px;
 }
 
 .aboutus p{
@@ -61,7 +61,7 @@ body{
   padding-left: 400px;
   padding-top: 30px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 
@@ -81,7 +81,7 @@ body{
   font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 40px;
 }
  
 .contact .form {
@@ -89,6 +89,7 @@ body{
     margin:0 auto;
     padding: 0 30px;
     color:#AD7278;
+    padding-top: 40px;
 }
  
 .form input {
@@ -101,6 +102,7 @@ body{
     resize: vertical;
     margin:7.5px 0;
     color: white;
+    font-size: 18px;
 }
  
 .form textarea {
@@ -113,6 +115,7 @@ body{
     resize: vertical;
     color: #ffffff;
     margin:7.5px 0;
+    font-size: 18px;
 }
  
 input[type=submit] {
@@ -143,7 +146,7 @@ input[type=submit]:hover {
   font-family: STHeiti;
   text-align: center;
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 40px;
 }
 .outside{
   display: flex;
@@ -158,28 +161,34 @@ input[type=submit]:hover {
 }
 .card-container2{
   padding-left: 130px;
+  font-size: 18px;
 }
 
 .card-container3{
   padding-left: 130px;
+  font-size: 18px;
 }
 
+.card-container1{
+  font-size: 18px;
+}
 
 .servicepoints h2{
   color: #724e52;
   font-family: STHeiti;
   text-align: center;
-  padding-top: 30px;
-  font-size: 30px;
+  padding-top: 60px;
+  font-size: 40px;
 }
  
 .container img{
  padding-left: 100px;
+ padding-top: 40px;
 }
 
 .text-block {
   position: absolute;
-  top:1285px;
+  top:1480px;
   right: 40px;
   color:#d4bfba ;
   background-color: #724e52;
@@ -189,10 +198,15 @@ input[type=submit]:hover {
   align-content: center;
   border-radius: 20px;
   font-size: 12px;
+  width: 250px;
+  font-family: STHeiti;
 }
  
+ .text-block h2{
+  font-size: 20px;
+ }
  .feedback_details {
-  line-height: 25px;
+  line-height: 30px;
  }
 
 
